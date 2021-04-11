@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed', sans-serif; }
+
+body {
+  background-color: #ecf2f8 !important; }
+
+.container-fluid {
+  max-width: 1440px;
+  height: 100vh; }
+
+#card-main {
+  height: 100%;
+  border-radius: 10px; }
+
+.card-daniel {
+  background-color: #7541c8;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 75% 5%;
+  background-size: 25%;
+  color: white; }
+
+.card-jhonathan {
+  background-color: #48556a;
+  color: white; }
+
+.card-jeanette {
+  background-color: white; }
+
+.card-patrick {
+  background-color: #19212e;
+  color: white; }
+
+.card-kira {
+  background-color: white; }
+
+p {
+  opacity: 0.6; }
+
+.card-text {
+  font-size: 1.2em; }
+
+@media (max-width: 992px) {
+  .container-fluid {
+    margin: 15rem 0;
+    height: 100%; }
+
+  #card-main {
+    margin: 25px 0; }
+
+  .card-daniel {
+    background-position: 95% 5%; } }
+
+/*# sourceMappingURL=style.css.map */

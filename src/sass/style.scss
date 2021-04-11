@@ -1,0 +1,92 @@
+
+//* Tipografia *//
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+//* Global *//
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+//* Colors *//
+
+//**** Primary ****//
+
+$moderateViolet: hsl(263, 55%, 52%);
+$veryDarkGrayishBlue: hsl(217, 19%, 35%);
+$veryDarkBlackishBlue: hsl(219, 29%, 14%);
+$white: hsl(0, 0%, 100%);
+
+//**** Neutral ****//
+
+$lightGray: hsl(0, 0%, 81%);
+$lightGrayishBlue: hsl(210, 46%, 95%);
+
+//* Layout *//
+body {
+    background-color: $lightGrayishBlue !important;
+}
+
+.container-fluid {
+    max-width: 1440px;
+    height: 100vh;
+}
+
+#card-main {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-daniel {
+    background-color: $moderateViolet;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 75% 5%;
+    background-size: 25%;
+    color: $white;
+}
+
+.card-jhonathan {
+    background-color: $veryDarkGrayishBlue;
+    color: $white;
+}
+
+.card-jeanette {
+    background-color: $white;
+}
+
+.card-patrick {
+    background-color: $veryDarkBlackishBlue;
+    color: $white;
+}
+
+.card-kira {
+    background-color: $white;
+}
+
+p {
+    opacity: 0.6;
+}
+
+.card-text {
+    font-size: 1.2em;
+}
+
+@media(max-width:992px) {
+
+    .container-fluid {
+        margin: 15rem 0;
+        height: 100%;
+    }
+
+    #card-main {
+        margin: 25px 0;
+    }
+
+    .card-daniel {
+        background-position: 95% 5%;
+    }
+   
+}
