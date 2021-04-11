@@ -9,12 +9,8 @@ body {
   background-color: #ecf2f8 !important; }
 
 .container-fluid {
-  max-width: 1440px;
+  max-width: 1280px;
   height: 100vh; }
-
-#card-main {
-  height: 100%;
-  border-radius: 10px; }
 
 .card-daniel {
   background-color: #7541c8;
@@ -22,27 +18,37 @@ body {
   background-repeat: no-repeat;
   background-position: 75% 5%;
   background-size: 25%;
-  color: white; }
+  color: white;
+  height: 100%;
+  border-radius: 10px; }
 
 .card-jhonathan {
   background-color: #48556a;
-  color: white; }
+  color: white;
+  height: 100%;
+  border-radius: 10px; }
 
 .card-jeanette {
-  background-color: white; }
+  background-color: white;
+  height: 100%;
+  border-radius: 10px; }
 
 .card-patrick {
   background-color: #19212e;
-  color: white; }
+  color: white;
+  height: 100%;
+  border-radius: 10px; }
 
 .card-kira {
-  background-color: white; }
+  background-color: white;
+  height: 100%;
+  border-radius: 10px; }
 
 p {
   opacity: 0.6; }
 
 .card-text {
-  font-size: 1.2em; }
+  font-size: 1.1em; }
 
 @media (max-width: 992px) {
   .container-fluid {
